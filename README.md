@@ -142,7 +142,7 @@ Can be deployed using:
 ## 👨‍💻 Author
 
 **Rohith Chigatapu**
-[GitHub](https://github.com/rohit-c)
+[GitHub](https://github.com/Rohit04052004)
 
 ---
 
