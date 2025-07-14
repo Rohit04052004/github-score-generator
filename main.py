@@ -48,9 +48,16 @@ def analyze_repo():
         language_stats = {}
 
         repo_path = os.path.join("extracted_repos", repo_name)
-
         if not os.path.exists(repo_path):
-            return jsonify({"error": "Repository folder not found after unzip"}), 500
+            # Try to find the correct folder name by prefix match
+            candidates = [
+                f for f in os.listdir("extracted_repos") 
+                if f.startswith(repo_name)
+            ]
+            if candidates:
+               repo_path = os.path.join("extracted_repos", candidates[0])
+            else:
+               return jsonify({"error": "Repository folder not found after unzip"}), 500
 
         avg_complexity = analyze_repo_complexity(repo_path)
         complexity_scores[repo_name] = avg_complexity
