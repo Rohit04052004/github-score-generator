@@ -1,0 +1,7 @@
+requests
+python-dotenv
+radon 
+pylint
+lizard
+flask 
+flask-cors

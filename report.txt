@@ -1,0 +1,17 @@
+👤 Developer Profile: torvalds
+
+Name: Linus Torvalds
+Followers: 240716
+Public Repositories: 8
+
+📊 Summary:
+- Languages used: C (36507), Python (300), PHP (5), Rust (158), C++ (247), Ruby (1), Java (2), JavaScript (6), TypeScript (33)
+- Projects analyzed: 8
+- Average Complexity Score: 4.4
+- Origin Breakdown:
+    - ✍️ Original: 6
+    - 🤖 AI-Generated: 0
+    - 📄 Copied: 0
+
+📝 Final Verdict:
+This developer shows consistent coding habits with a tech stack primarily based on the languages and frameworks above. Complexity score and origin metadata reflect the developer's style and tooling.
